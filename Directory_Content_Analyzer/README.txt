@@ -1,4 +1,5 @@
 # Directory Content Analyzer
+----------------------------
 
 The zip file "DirectoryContentAnalyzer.zip" has a C++ project which its objective is to collect information (name, size, modification date, etc) about all files and subdirectories in a file system subtree. The report generated can be copy-and-paste'd into any text editor.
 
