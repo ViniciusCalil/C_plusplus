@@ -3,7 +3,7 @@
 
 The zip file "DirectoryContentAnalyzer.zip" has a C++ project which its objective is to collect information (name, size, modification date, etc) about all files and subdirectories in a file system subtree. The report generated can be copy-and-paste'd into any text editor.
 
-The zip file also contains the executable file of the project, in the subdirectory ".\bin\Debug\".
+The zip file "DirectoryContentAnalyzer.exe.7z" contains the executable file of the project.
 
 This project was written in the "Code::Blocks" IDE and uses the UI toolkit "wxWidgets" version 3.1.2 with Code::Blocks' wxSmith resource. It was compiled by MinGW-W64 (version : MinGW-W64-builds-4.3.4) and gcc (version 7.3.0).
 
