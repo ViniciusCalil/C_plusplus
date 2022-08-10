@@ -47,9 +47,19 @@ Inside the zip file there is a "README.txt" file with more information about ADS
 Search for files with ADS:
 --------------------------
 
-To check if there is any ADS in a specific file, use the command: 'dir /R "specific_file_name" ' .
-To check if there is any file with ADS in a specific directory, use the command: 'dir /R "directory_name" | find ":$DATA" ' .
-To check if there is any file with ADS in a specific directory subtree, use the command :'dir /R /S "directory_name" | find ":$DATA" ' . Note that the subdirectory name is not displayed along the file names. If you need to find the subdirectory, you shall have to search one by one, using olny the "/R" command parameter.
+To check if there is any ADS in a specific file, use the command: 
+
+    dir /R "specific_file_name"
+    
+To check if there is any file with ADS in a specific directory, use the command: 
+
+    dir /R "directory_name" | find ":$DATA"
+    
+To check if there is any file with ADS in a specific directory subtree, use the command :
+
+    dir /R /S "directory_name" | find ":$DATA" 
+
+  Note that the subdirectory name is not displayed along the file names. If you need to find the subdirectory, you shall have to search one by one, using olny the "/R" command parameter.
 
 
 Vinicius Calil, 2013/08/13.
